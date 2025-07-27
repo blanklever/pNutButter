@@ -1,5 +1,3 @@
-# @pnutbutter/eleventy
-
 A privacy layer plugin for Eleventy (11ty) static sites. Easily separate public and private content, with support for password-protected private output and seamless integration with the pNutButter ecosystem.
 
 ## Features
