@@ -1,0 +1,17 @@
+{
+  "name": "@pnutbutter/eleventy",
+  "version": "0.1.0",
+  "description": "11ty plugin for pNutButter privacy layer.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "author": "pNutButter contributors",
+  "license": "MIT",
+  "peerDependencies": {
+    "@11ty/eleventy": ">=2.0.0"
+  }
+}

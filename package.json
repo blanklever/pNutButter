@@ -1,0 +1,16 @@
+{
+  "name": "pnutbutter-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for pNutButter privacy layer for JAMstack.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.0.0"
+  }
+}

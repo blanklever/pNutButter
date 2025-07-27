@@ -1,0 +1,17 @@
+{
+  "name": "@pnutbutter/decap-cms",
+  "version": "0.1.0",
+  "description": "Decap CMS integration for pNutButter privacy layer.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "author": "pNutButter contributors",
+  "license": "MIT",
+  "peerDependencies": {
+    "decap-cms-app": ">=3.0.0"
+  }
+}

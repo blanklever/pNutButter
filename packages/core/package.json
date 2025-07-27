@@ -1,0 +1,15 @@
+{
+  "name": "@pnutbutter/core",
+  "version": "0.1.0",
+  "description": "Core privacy and article utilities for pNutButter.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo 'No tests yet'"
+  },
+  "author": "pNutButter contributors",
+  "license": "MIT"
+}
