@@ -1,0 +1,16 @@
+# Node and package manager
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Local/dev files
+pnutbutter.dev.md
+.env
+.env.*
+.DS_Store
+*.log
