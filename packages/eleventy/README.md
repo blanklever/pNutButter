@@ -7,12 +7,12 @@ A privacy layer plugin for Eleventy (11ty) static sites. Easily separate public 
 - Outputs public content to `/posts/` and private content to `/private/`
 - Works with Netlify password protection
 - Simple integration with any 11ty project
-- Part of the pNutButter privacy monorepo (see [docs](../../docs/USAGE.md))
+- Part of the pNutButter privacy monorepo (see [docs](https://github.com/blanklever/pNutButter/blob/master/docs/usage.md))
 
 ## Installation
 
 ```sh
-npm install @pnutbutter/eleventy
+npm i @blanklever/pnutbutter-eleventy
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install @pnutbutter/eleventy
 Edit your `.eleventy.js`:
 
 ```js
-const pNutButter = require('@pnutbutter/eleventy');
+const pNutButter = require('@blanklever/pnutbutter-eleventy');
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pNutButter);
   // ...existing config...
@@ -42,9 +42,9 @@ This is private content.
 - Private content → `/private/` (password protected with Netlify)
 
 ## More
-- [Quickstart Guide](../../docs/11ty-quickstart.md)
-- [Full Usage Guide](../../docs/USAGE.md)
-- [Netlify Setup](../../netlify.toml)
+- [Quickstart Guide](https://github.com/blanklever/pNutButter/blob/master/docs/eleventy_quickstart.md)
+- [Usage Guide](https://github.com/blanklever/pNutButter/blob/master/docs/usage.md)
+- [Netlify Setup](https://github.com/blanklever/pNutButter/blob/master/netlify.toml)
 
 ---
 
