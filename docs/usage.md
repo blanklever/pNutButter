@@ -32,7 +32,7 @@
    };
    ```
 5. [Optional] Integrate with Decap CMS:
-   - See `docs/DECAP_CMS.md` for full guide.
+   - See `docs/decapcms_integration.md` for full guide.
    - Add privacy fields to your collection config:
      ```js
      import { withPrivacyFields } from '@pnutbutter/decap-cms';
@@ -59,9 +59,8 @@
 - All workflows include error handling for invalid URLs, extraction failures, and malformed privacy fields.
 - See test suites in each package for reliability guarantees.
 
-- [Decap CMS Integration Guide](./DECAP_CMS.md)
-- [Examples](../examples/)
-- [Phase 1 Checklist](./PHASE1_CHECKLIST.md)
+- [Decap CMS Integration Guide](https://github.com/blanklever/pNutButter/blob/master/docs/decapcms_integration.md)
+- [Examples](https://github.com/blanklever/pNutButter/tree/master/examples)
 
 ## Deployment
 
@@ -78,8 +77,6 @@
 
 
 ---
-
-See `PHASE1_CHECKLIST.md` for project status.
 
 ## Future Work
 

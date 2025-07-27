@@ -22,7 +22,7 @@ cd my-11ty-site
 npm install ../pnutbutter/packages/eleventy
 ```
 
-Or, if published to npm:
+Or, NPM:
 ```sh
 npm install @pnutbutter/eleventy
 ```
@@ -62,10 +62,10 @@ npx @11ty/eleventy
 - Deploy your site to Netlify for static hosting and private content protection.
 
 ## 7. Next Steps
-- Integrate a CMS (see `docs/DECAP_CMS.md`)
+- Integrate a CMS (see `docs/decapcms_integration.md`)
 - Use the CLI or serverless functions for article saving
-- See `docs/USAGE.md` for advanced usage
+- See `docs/usage.md` for advanced usage
 
 ---
 
-This quickstart is designed to make privacy integration with 11ty as easy as possible. For questions or feedback, see the User Feedback section in `USAGE.md`.
+This quickstart is designed to make privacy integration with 11ty as easy as possible. For questions or feedback, see the User Feedback section in `usage.md`.
