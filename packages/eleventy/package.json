@@ -1,5 +1,5 @@
 {
-  "name": "@pnutbutter/eleventy",
+  "name": "@blanklever/pnutbutter-eleventy",
   "version": "0.1.0",
   "description": "11ty plugin for pNutButter privacy layer.",
   "main": "dist/index.js",
