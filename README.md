@@ -1,6 +1,6 @@
 # pNutButter
 
-Privacy Layer for JAMstack. See `pnutbutter.prompt.md` for project vision and roadmap.
+Privacy Layer for JAMstack.
 
 ## Packages
 - `@pnutbutter/core`: Core privacy and article utilities
